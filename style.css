@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100..900&family=Outfit:wght@100..900&display=swap');
 
 body {
   font-family: 'Outfit', sans-serif;
@@ -8,22 +8,22 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  background-color: #d5e1ef;
 }
 
 .container {
-  background-color: hsl(0, 0%, 100%); /* White */
+  background-color: #fff;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 375px; /* Mobile width */
+  max-width: 300px;
   width: 100%;
 }
 
 header img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
   border-radius: 15px;
 }
 
@@ -33,19 +33,11 @@ header img {
 
 .heading h1 {
   font-size: 24px;
-  font-weight: 700; /* Bold */
-  color: hsl(218, 44%, 22%); /* Slate 900 */
 }
 
 .heading p {
-  font-size: 15px; /* Body Copy font size */
-  color: hsl(216, 15%, 48%); /* Slate 500 */
-  margin: 20px;
-}
-
-/* Media Query for Desktop */
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px; /* Desktop width */
-  }
+  font-size: 16px;
+  color: #666;
+  margin-right: 20px;
+  margin-left: 20px;
 }
